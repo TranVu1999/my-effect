@@ -43,7 +43,7 @@ for(let elmCardItem of elmCards){
             
             setTimeout(() =>{
                 elmArticles[cardId].style.display = "none"
-            }, 100)
+            }, 500)
 
             elmCards[cardId].classList.remove("slideRight")
             elmCards[cardId].classList.remove("slideLeft")
