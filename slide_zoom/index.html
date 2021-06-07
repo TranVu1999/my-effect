@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệu ứng thu phóng Slide Zoom</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="./vendor/icon-moon.css">
+    <link rel="stylesheet" href="./Font/style.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="main-show">
+            <div class="overlay"></div>
+
+            <div class="main-show__container">
+                <div class="card" data-id="0">
+                    <span class="number">01</span>
+                    <div class="cart__container">
+                        <span class="icon icon-clubs"></span>
+                        <h4>slide</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, suscipit!</p>
+                    </div>
+                    
+                </div>
+
+                <div class="card" data-id="1">
+                    <span class="number">02</span>
+                    <div class="cart__container">
+                        <span class="icon icon-clubs"></span>
+                        <h4>design</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, suscipit!</p>
+                    </div>
+                </div>
+
+                <div class="card" data-id="2">
+                    <span class="number">03</span>
+                    <div class="cart__container">
+                        <span class="icon icon-clubs"></span>
+                        <h4>ideas</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, suscipit!</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-id="3">
+                    <span class="number">04</span>
+                    <div class="cart__container">
+                        <span class="icon icon-clubs"></span>
+                        <h4>skills</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, suscipit!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-show__article">
+                <div class="article article__list" >
+                    <ul>
+                        <li>
+                            <div class="thumb">
+                                <span class="icon icon-lifebuoy"></span>
+                            </div>
+                            <div class="text">
+                                <h2>Heading 1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit exercitationem.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <span class="icon icon-bug"></span>
+                            </div>
+                            <div class="text">
+                                <h2>Heading 1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit exercitationem.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <span class="icon icon-grin2"></span>
+                            </div>
+                            <div class="text">
+                                <h2>Heading 1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit exercitationem.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <span class="icon icon-home"></span>
+                            </div>
+                            <div class="text">
+                                <h2>Heading 1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit exercitationem.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="article article__description" >
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                    </p>
+                    <hr>
+                    <p>Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</p>
+                    <button>Read more</button>
+                </div>
+
+                <div class="article article__grid" style="display: none;">
+                    <div class="row">
+                        <div class="item">
+                            <img src="./image/p1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./image/p2.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./image/p3.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item">
+                            <img src="./image/p4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./image/p5.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./image/p6.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="item">
+                            <img src="./image/p7.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./image/p8.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./image/p9.jpeg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="article article__circle" style="display: none;">
+                    <div class="circle">
+                        <h1>Heading <img src="./image/fire.PNG" alt=""></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                        </p>
+                        <p>Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/config.js"></script>
+</body>
+</html>
